@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'city-attractions',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    firebase: 'https://city-attractions-pdx.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

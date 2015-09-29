@@ -1,0 +1,12 @@
+{  "attractions": [{
+    "name": "OMSI",
+    "description": "Science Museum",
+    "image": "http://blog.oregonlive.com/advertorial/2009/04/large_omsi_453x509.jpg"
+  }, {
+    "name": "ZOO",
+    "description":"Watch Wild Animals",
+    "image": "http://www.guidetooregon.com/regions/metro/images/zoo.jpg"
+
+  }]
+
+}

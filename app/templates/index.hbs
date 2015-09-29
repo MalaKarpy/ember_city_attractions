@@ -1,0 +1,11 @@
+<h1> Welcome to Portland City </h1>
+
+We hope you find exactly what you're looking for in a place to stay.
+<ul>
+  {{#each model as |attraction|}}
+     <li>{{attraction.name}} {{attraction.description}} </li>
+  {{/each}}
+</ul>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
